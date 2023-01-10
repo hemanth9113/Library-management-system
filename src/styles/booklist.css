@@ -1,0 +1,28 @@
+.booksec{
+    display:flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.booksec img{
+    border-radius: 5px;
+    height: 280px;
+    width: 280px;
+    margin: 10px 0px 10px 150px;
+}
+
+
+.book_card{
+    color: rgb(175, 210, 211);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 5px 5px;
+    width: 800px;
+    height: 280px;
+    align-items: center;
+}
+button{
+    margin: 0px;
+}
+.booklist h1{
+    color: aliceblue;
+}

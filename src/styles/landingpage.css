@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to left,#0f2027, #203a43, #2c5364);
+    
+}
+.contanier {
+    margin: 150px auto;
+    background: linear-gradient(to bottom, #e2e7e8,#203a43); 
+    color:#252525;
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 50px 10px rgb(50, 50, 56);
+}
+.contanier img{
+    position: relative;
+    left: 120px;
+    top: 100px;
+    width: 90px;
+    height: 90px;
+}
+
+.btn {
+    color:aliceblue ;
+    border-radius: 9px;
+    border: 0;
+    margin: 20px;
+    padding: 10px 60px;
+    background-color:rgb(17, 11, 53);
+    transition: 0.8s;
+    text-decoration: none;
+    position: relative;
+    top: 150px;
+    right: 42px;
+    font-weight: bold
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:rgb(17, 11, 53);
+}

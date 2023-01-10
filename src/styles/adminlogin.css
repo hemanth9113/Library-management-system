@@ -1,0 +1,31 @@
+.form input{
+    font-size: 14px;
+    font-weight:normal;
+    /* text-align: center; */
+    color:aliceblue;
+    background-color: transparent;
+    border: 0;
+    border-bottom:2px solid #ffffff;
+    margin: 20px;
+    width: 200px;
+    padding: 10px 0px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.adm{
+    font-size: 14px;
+    font-weight: bold;
+    color:aliceblue ;
+    border-radius: 9px;
+    border: 0;
+    margin: 20px;
+    padding: 10px 60px;
+    background-color:rgb(17, 11, 53);
+    transition: 0.8s;
+}
+.adm:hover{
+    background-color: aliceblue;
+    color:rgb(17, 11, 53);
+}

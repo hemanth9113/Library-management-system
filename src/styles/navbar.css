@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 70px;
+    width: 100%;
+}
+.nav_links li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+.nav_links a{
+    color: #252525;
+    text-decoration: none;
+}
+.navbar h3{
+    color: #252525;
+    margin-left: 20px;
+}
+.nav_links a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(194, 129, 75);
+    text-decoration-thickness: 2px;
+}

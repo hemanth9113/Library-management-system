@@ -1,0 +1,19 @@
+.usersec{
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.user_card{
+    color: rgb(175, 210, 211);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 5px 5px;
+    width: 400px;
+    height: 220px;
+}
+button{
+    margin: 0px;
+}
+.userlist h1{
+    color: aliceblue;
+}
