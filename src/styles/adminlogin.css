@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
 }
-.adm{
+.admn{
     font-size: 14px;
     font-weight: bold;
     color:aliceblue ;
@@ -25,7 +25,7 @@
     background-color:rgb(17, 11, 53);
     transition: 0.8s;
 }
-.adm:hover{
+.admn:hover{
     background-color: aliceblue;
     color:rgb(17, 11, 53);
 }

@@ -1,15 +1,21 @@
 body{
-    background: linear-gradient(to left,#0f2027, #203a43, #2c5364);
-    
-}
+    /* background: linear-gradient(to left,#0f2027, #203a43, #2c5364); */
+    background-image: url("../../public/images/photo-1521587760476-6c12a4b040da.avif");
+} 
+
+
 .contanier {
     margin: 150px auto;
-    background: linear-gradient(to bottom, #e2e7e8,#203a43); 
+    background: linear-gradient(to bottom,#D0DAE0,#9A8478); 
     color:#252525;
     height: 400px;
     width: 700px;
     border-radius: 10px;
     box-shadow: 1px 0px 50px 10px rgb(50, 50, 56);
+}
+
+.contanier h1{
+    padding-top: 40px;
 }
 .contanier img{
     position: relative;

@@ -4,8 +4,8 @@
 }
 
 .user_card{
-    color: rgb(175, 210, 211);
-    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background: linear-gradient(to bottom,#1e130cc4,#9A8478); 
     border-radius: 5px;
     margin: 5px 5px;
     width: 400px;
@@ -15,5 +15,8 @@ button{
     margin: 0px;
 }
 .userlist h1{
-    color: aliceblue;
+    /* color: aliceblue; */
+    background: linear-gradient(to bottom,#d0dae0,#9a8478ec); 
+    margin: 0px;
+    padding: 10px;
 }

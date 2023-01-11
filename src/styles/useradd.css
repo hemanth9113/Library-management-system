@@ -1,11 +1,10 @@
-.addbook h1{
-    /* color: aliceblue; */
+.adduser h1{
     background: linear-gradient(to bottom,#d0dae0,#9a8478ec); 
     margin: 0px;
     padding: 10px;
 }
 
-.form1 input{
+.form2 input{
     font-size: 14px;
     font-weight:normal;
     /* text-align: center; */
@@ -17,17 +16,18 @@
     width: 200px;
     padding: 10px 0px;
 }
-.form1{
-        margin: 100px auto;
-        background: linear-gradient(to bottom,#D0DAE0,#9A8478); 
-        color:#252525;
-        height: 800px;
-        width: 700px;
-        border-radius: 10px;
-        box-shadow: 1px 0px 50px 10px rgb(50, 50, 56);
+
+.form2{
+    margin: 100px auto;
+    background: linear-gradient(to bottom,#D0DAE0,#9A8478); 
+    color:#252525;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 50px 10px rgb(50, 50, 56);
 }  
 
-.adm{
+.bb{
     font-size: 14px;
     font-weight: bold;
     color:aliceblue ;
@@ -38,7 +38,7 @@
     background-color:rgb(17, 11, 53);
     transition: 0.8s;
 }
-.adm:hover{
+.bb:hover{
     background-color: aliceblue;
     color:rgb(17, 11, 53);
 }

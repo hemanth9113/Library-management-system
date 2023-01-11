@@ -16,11 +16,11 @@ const ReadBook = () => {
     })
     return (  
         <div className="readbook">
-            <h1>Read More</h1>
+            <h1>Read More : </h1>
             <div className="card">
-            <h1>Title: {book.title}</h1>
-            <p><span> <h1>ShortDescription:</h1></span> {book.shortDescription}</p>
-            <p><span><h1>LongDescription:</h1></span> {book.longDescription}</p>
+            <h2>Title: {book.title}</h2>
+            <p><span> <h2>ShortDescription:</h2></span> {book.shortDescription}</p>
+            <p><span><h2>LongDescription:</h2></span> {book.longDescription}</p>
             </div>
         </div>
     );

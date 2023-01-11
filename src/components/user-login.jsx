@@ -17,7 +17,7 @@ const Userlogin = () => {
                         <div className="password">
                             <input type="password" placeholder="Enter your password" />
                         </div>
-                        <button>Login</button>
+                        <button className="admn">Login</button>
                     </form>
                 </div>
             </div>

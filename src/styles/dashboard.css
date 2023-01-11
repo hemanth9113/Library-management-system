@@ -1,0 +1,9 @@
+.dashboard{
+    /* background: linear-gradient(to left,#0f2027, #203a43, #2c5364); */
+    background: linear-gradient(to bottom,#D0DAE0,#9A8478);
+}
+
+.dashboard h1{
+    margin: 0px;
+    padding: 10px ;
+}

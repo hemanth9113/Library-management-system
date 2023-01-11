@@ -1,3 +1,4 @@
+import "../styles/useradd.css"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -29,19 +30,19 @@ const Adduser = () => {
     return (  
         <div className="adduser">
             <h1>Add a New user</h1>
-            <div className="form">
+            <div className="form2">
                 <form action=""onSubmit={handleSubmit}>
                     <div className="name">
-                        <input type="text" value={name} onChange={ (e)=>setName(e.target.value)} placeholder="Enter the user name" />
+                        <input type="text" value={name} required onChange={ (e)=>setName(e.target.value)} placeholder="Enter the user name" />
                     </div>
                     <div className="age">
-                    <input type="number" value={age} onChange={ (e)=>setAge(e.target.value)} min='1' placeholder="Enter the user age" />
+                    <input type="number" value={age} required onChange={ (e)=>setAge(e.target.value)} min='1' placeholder="Enter the user age" />
                     </div>
                     <div className="Email">
-                    <input type="text" value={Email} onChange={ (e)=>setEmail(e.target.value)} placeholder="Enter the user Email" />
+                    <input type="text" value={Email} required onChange={ (e)=>setEmail(e.target.value)} placeholder="Enter the user Email" />
                     </div>
                     <div className="phoneNumber">
-                    <input type="tel" value={phoneNumber} onChange={ (e)=>setPhonenumber(e.target.value)} minLength='10' maxLength='10' placeholder="Enter the user Phonenumber" />
+                    <input type="tel" value={phoneNumber} required onChange={ (e)=>setPhonenumber(e.target.value)} minLength='10' maxLength='10' placeholder="Enter the user Phonenumber" />
                     </div>
                     <button className="bb">Add User</button>
                 </form>

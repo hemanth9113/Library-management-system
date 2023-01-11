@@ -1,5 +1,18 @@
 .readbook{
-    color: rgb(175, 210, 211);;
+    margin: 80px auto;
+    background: linear-gradient(to bottom,#D0DAE0,#9A8478); 
+    color:#252525;
+    border-radius: 10px;
+    box-shadow: 1px 0px 50px 10px rgb(50, 50, 56);
     text-align: left;
 
+}
+
+.readbook h1{
+    background: linear-gradient(to bottom,#d0dae0,#9a8478ec); 
+    margin: 0px;
+}
+
+.card{
+    padding: 20px;
 }
